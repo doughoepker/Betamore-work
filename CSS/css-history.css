@@ -4,3 +4,7 @@ h1 {
 #firstline {
   color:green;
 }
+.dates {
+  font-weight: bold;
+  font-style:italic;
+}
