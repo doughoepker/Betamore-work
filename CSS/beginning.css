@@ -1,15 +1,15 @@
 #header {
   text-align: center;
-  background-color: honeydew;
-  padding:10px;
-  padding-bottom:20px;
+  border: 10px;
+  border-color: black;
 }
 #nav {
   line-height: 30px;
-  height:100px;
-  width:200px;
+  height:500px;
+  width:150px;
   float:left;
   padding:10px;
+  background-color: lightgrey;
 }
 #section {
   width:650px;
@@ -23,9 +23,9 @@
   text-align:center;
   padding:5px;
 }
-h1 {
-  color:black;
-  font-size:20px;
+h1:nth-child(1) {
+  color:  teal;
+  font-size:40px;
 }
 body {
   background-color:lightgrey;
