@@ -12,7 +12,11 @@
   height:800px;
   float:left;
   padding:10px;
-  background-color: lightgrey;
+}
+#footer {
+  clear:both;
+  text-align:center;
+  padding:5px;
 }
 h1 {
   font-family: Shadows Into Light;
