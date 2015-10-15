@@ -19,10 +19,17 @@
   width: 450px;
   margin: 0 auto;
   }
+
 .featurepic {
-  height: 320px;
-  width: auto;
+
 }
+
+.featurepic img {
+  height: 320px;
+  width: 100%;
+}
+
+
 .main {
   background-color: #F0F0F0;
 }
