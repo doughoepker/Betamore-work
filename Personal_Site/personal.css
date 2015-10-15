@@ -15,11 +15,9 @@
   clear: both;
 }
 #footer2 {
-  height: 80px;
+  height: 60px;
   background-color: #989898;
-  padding-top: 15px;
   clear: both;
-}
 }
 .nav {
   display: table;
@@ -68,6 +66,12 @@
   width: 280px;
   margin: 0 auto;
 }
+.footermail {
+  display: table;
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 22px;
+}
 ul li {
   display: inline;
   float: left;
@@ -91,4 +95,18 @@ p {
   font-family: "Lato" sans-serif;
   text-size: 18px;
   line-height: 1.78;
+}
+a:link {
+  font-family: "Exo 2" sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-transform: full-width;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: whitesmoke;
 }
