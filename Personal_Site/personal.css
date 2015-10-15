@@ -21,11 +21,12 @@
   }
 
 .featurepic {
+  height: 320px;
 
 }
 
 .featurepic img {
-  height: 320px;
+  height: 100%;
   width: 100%;
 }
 
