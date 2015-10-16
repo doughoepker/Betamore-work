@@ -1,3 +1,17 @@
+/* Web fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+
+/* Custom stuff
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+main {
+  font-family: 'Lato', sans-serif;
+}
+
+
 /* Global helpers
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
