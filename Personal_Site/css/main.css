@@ -46,11 +46,20 @@ header li {
 }
 
 header li a {
-  color: black;
+  color: rgba(0, 0, 0, 0.7); /* black at 70% opacity */
+  border-radius: 0.3125em; /* equivalent to 5px */
   font-weight: bold;
   font-size: 1.5vmax; /* 1.5% of viewport height or width, whichever is larger */
+  padding: 0.3125em 0.9375em; /* equivalent to 5px and 15px */
   text-decoration: none;
   text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+header li a:hover,
+header li a:focus {
+  color: black;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .vertical-contain {
@@ -62,7 +71,6 @@ header li a {
 .vertical-center {
   display: table-cell;
   vertical-align: middle;
-  width: 80%;
 }
 
 .hero h1 {
