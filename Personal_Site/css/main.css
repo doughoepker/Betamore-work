@@ -82,6 +82,22 @@ html {
   box-sizing: inherit;
 }
 
+.vertical-contain {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tinted-bg-image {
+  background-color: hsl(120, 73%, 85%);
+  background-blend-mode: luminosity;
+}
+
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
