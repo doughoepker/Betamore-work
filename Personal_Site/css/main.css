@@ -48,6 +48,7 @@ header li {
 header li a {
   color: black;
   font-weight: bold;
+  font-size: 1.5vmax; /* 1.5% of viewport height or width, whichever is larger */
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -61,12 +62,15 @@ header li a {
 .vertical-center {
   display: table-cell;
   vertical-align: middle;
+  width: 80%;
 }
 
 .hero h1 {
   color: white;
   font-family: 'Fredericka the Great', cursive;
-  font-size: 6em;
+  font-size: 8vmax;
+  margin: 0 auto;
+  width: 90%;
 }
 
 
