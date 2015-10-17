@@ -62,17 +62,6 @@ header li a:focus {
   background: rgba(0, 0, 0, 0.3);
 }
 
-.vertical-contain {
-  display: table;
-  height: 100%;
-  width: 100%;
-}
-
-.vertical-center {
-  display: table-cell;
-  vertical-align: middle;
-}
-
 .hero h1 {
   color: white;
   font-family: 'Fredericka the Great', cursive;
