@@ -22,6 +22,7 @@ a:active {
 
 main {
   font-family: 'Lato', sans-serif;
+  margin: 1em;
 }
 
 section.top {
@@ -35,12 +36,13 @@ section.top {
 
 header {
   background-color: white;
+  line-height: 2; /* set header height */
   opacity: 0.7;
 }
 
 header nav {
   margin: 0 auto;
-  width: 50%;
+  max-width: 36em;
 }
 
 header ul {
@@ -54,13 +56,13 @@ header ul {
 header li {
   flex: 1 0 auto;
   list-style: none;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 header li a {
   border-radius: 0.3125em; /* equivalent to 5px */
   font-weight: bold;
-  font-size: 1.5vmax; /* 1.5% of viewport height or width, whichever is larger */
+  font-size: 2vmax; /* 2% of viewport height or width, whichever is larger */
   padding: 0.3125em 0.9375em; /* equivalent to 5px and 15px */
   text-transform: uppercase;
 }
@@ -78,10 +80,6 @@ header li a:focus {
   font-size: 8vmax;
   margin: 0 auto;
   width: 90%;
-}
-
-section.about {
-  margin: 1em;
 }
 
 @media (min-width: 48em) { /* 768px device-width and up */
