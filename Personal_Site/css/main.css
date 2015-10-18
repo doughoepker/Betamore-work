@@ -81,8 +81,14 @@ header li a:focus {
 }
 
 section.about {
-  margin: 3em auto;
-  width: 80%;
+  margin: 1em;
+}
+
+@media (min-width: 48em) { /* 768px device-width and up */
+  section.about {
+    margin: 3em auto;
+    max-width: 36em; /* 576px, yields comfortable line-length of 82 chars */
+  }
 }
 
 section.about h2 {
