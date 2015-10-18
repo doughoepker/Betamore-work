@@ -30,8 +30,14 @@ section.top {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 350px;
+  height: 175px;
   text-align: center;
+}
+
+@media (min-width: 48em) { /* 768px device-width and up */
+  section.top {
+    height: 350px;
+  }
 }
 
 header {
@@ -77,9 +83,8 @@ header li a:focus {
 .hero h1 {
   color: white;
   font-family: 'Fredericka the Great', cursive;
-  font-size: 8vmax;
+  font-size: 7vmax;
   margin: 0 auto;
-  width: 90%;
 }
 
 @media (min-width: 48em) { /* 768px device-width and up */
