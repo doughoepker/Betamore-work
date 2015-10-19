@@ -5,12 +5,12 @@
 @import url(https://fonts.googleapis.com/css?family=Rock+Salt);
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
 
-/* Custom stuff
+/* Custom syles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a:link,
 a:visited {
   color: rgba(60, 179, 113, 0.7); /* mediumseagreen / #3cb371 at 70% opacity */
-  padding-bottom: 0.3125em;
+  padding-bottom: 2px;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -34,7 +34,9 @@ section.top {
   text-align: center;
 }
 
-@media (min-width: 48em) { /* 768px device-width and up */
+/* increase section height / bg img height for 768px device-width and up */
+
+@media (min-width: 48em) {
   section.top {
     height: 350px;
   }
@@ -60,24 +62,24 @@ header ul {
 }
 
 header li {
-  flex: 1 0 auto;
+  flex: 1 0 auto; /* not clear what this does yet */
   list-style: none;
   padding: 0.5em;
 }
 
 header li a:link {
-  border-radius: 0.3125em; /* equivalent to 5px */
+  border-radius: 0.3125em; /* em units to play off font-size */
   color: rgba(23, 32, 42, 0.7); /* #17202A at 70% opacity */
   font-weight: bold;
-  font-size: 2vmax; /* 2% of viewport height or width, whichever is larger */
-  padding: 0.3125em 0.9375em; /* equivalent to 5px and 15px */
+  font-size: 2vmax; /* 2% of viewport height or width, whichever is larger, for responsive text without media queries */
+  padding: 0.3125em 0.9375em; /* em units to play off font-size */
   text-transform: uppercase;
 }
 
 header li a:hover,
 header li a:focus {
   color: black;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3); /* black at 30% opacity */
   border: none;
 }
 
@@ -144,7 +146,8 @@ html {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .row {
-  background: #eee;
+  background: gainsboro;
+  border-radius: 5px;
   margin: 0 0 20px 0;
 }
 .row:after {
@@ -170,8 +173,15 @@ html {
   width: 33.33%;
 }
 
+/* "mobile first" approach */
 .col-1-2 {
-  width: 50%;
+  width: 100%;
+}
+
+@media (min-width: 48em) { /* 768px device-width and up */
+  .col-1-2 {
+    width: 50%;
+  }
 }
 
 .col-1-4 {
@@ -188,14 +198,6 @@ html {
 
 .row-pad > [class*='col-']:last-of-type {
   padding-right: 20px;
-}
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-
 }
 
 /* SVG icons - svgicons.sparkk.fr
