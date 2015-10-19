@@ -7,9 +7,9 @@
 
 /* Custom stuff
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-a,
+a:link,
 a:visited {
-  color: rgba(60, 179, 113, 0.7); /* #17202A at 70% opacity */
+  color: rgba(60, 179, 113, 0.7); /* mediumseagreen / #3cb371 at 70% opacity */
   padding-bottom: 0.3125em;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -65,9 +65,9 @@ header li {
   padding: 0.5em;
 }
 
-header li a {
+header li a:link {
   border-radius: 0.3125em; /* equivalent to 5px */
-  color: rgba(23, 32, 42, 0.7); /* mediumseagreen / #3cb371 at 70% opacity */
+  color: rgba(23, 32, 42, 0.7); /* #17202A at 70% opacity */
   font-weight: bold;
   font-size: 2vmax; /* 2% of viewport height or width, whichever is larger */
   padding: 0.3125em 0.9375em; /* equivalent to 5px and 15px */
@@ -100,6 +100,18 @@ section.about h2 {
   text-align: center;
 }
 
+footer {
+  text-align: center;
+}
+
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+  border-bottom: none;
+  display: inline-block;
+  padding: 0;
+}
 
 /* Global helpers
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -190,17 +202,16 @@ html {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .svg-icon {
-  width: 1em;
-  height: 1em;
+  width: 3em;
+  height: 3em;
 }
 
 .svg-icon path,
 .svg-icon polygon,
 .svg-icon rect {
-  fill: #4691f6;
+  fill: rgba(60, 179, 113, 0.7); /* mediumseagreen / #3cb371 at 70% opacity */
 }
 
-.svg-icon circle {
-  stroke: #4691f6;
-  stroke-width: 1;
+.svg-icon path:hover {
+  fill: rgba(23, 32, 42, 0.7); /* #17202A at 70% opacity */
 }
