@@ -9,7 +9,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a,
 a:visited {
-  color: rgba(60, 179, 113, 0.7); /* mediumseagreen / #3cb371 at 70% opacity */
+  color: rgba(60, 179, 113, 0.7); /* #17202A at 70% opacity */
   padding-bottom: 0.3125em;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
