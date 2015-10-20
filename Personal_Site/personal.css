@@ -5,6 +5,9 @@
   background-color: #989898;
   position: fixed;
 }
+#body {
+  margin: 0;
+}
 #footer1 {
   height: 80px;
   background-color: #C0C0C0;
@@ -23,7 +26,7 @@
   }
 
 .featurepic {
-  height: 320px;
+  height: 400px;
 }
 
 .featurepic img {
@@ -58,6 +61,7 @@
   width: 580px;
   margin: 0 auto;
   padding-bottom: 40px;
+  font-size: 20px;
 }
 
 .littlerecstext img {
@@ -101,12 +105,15 @@
 }
 .footerlogos {
   display: table;
-  width: 280px;
+  width: 240px;
   margin: 0 auto;
+}
+.footerlogos a:hover {
+  text-decoration: none;
 }
 .footermail {
   display: table;
-  width: 280px;
+  width: 240px;
   margin: 0 auto;
   padding-top: 22px;
 }
@@ -145,7 +152,7 @@ h3 {
 }
 p {
   font-family: "Lato" sans-serif;
-  text-size: 18px;
+  text-size: 20px;
   line-height: 1.78;
 }
 a:link {
