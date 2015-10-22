@@ -145,6 +145,7 @@ html {
 
 .tinted-bg-image {
   background-color: hsl(120, 73%, 85%);
+  background-blend-mode: darken; /* Safari does not support luminosity yet */
   background-blend-mode: luminosity;
 }
 
