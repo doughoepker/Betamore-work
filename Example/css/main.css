@@ -1,4 +1,6 @@
-
+body {
+  background-color: lightgray;
+}
 aside {
   width: 140px;
   height: 860px;
@@ -8,12 +10,15 @@ aside {
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   float: right;
+  background-color: white;
 }
 
-aside h3 {
+aside h5 {
   padding: 5px 0px 5px 5px;
   margin-top: 0px;
   text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid black;
 }
 
 header {
@@ -49,12 +54,14 @@ header h5 {
   border-left: 1px solid black;
   float: left;
   clear: both;
+  background-color: white;
 }
 
 .featurecontainer h1 {
   padding: 5px 0px 5px 5px;
   margin-top: 0px;
   text-transform: uppercase;
+  border-bottom: 1px solid black;
 }
 
 .secondarycontent {
@@ -69,12 +76,14 @@ header h5 {
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   float: left;
+  background-color: white;
 }
 
 .social h1 {
   padding: 5px 0px 5px 5px;
   margin-top: 0px;
   text-transform: uppercase;
+  border-bottom: 1px solid black;
 }
 
 .web {
@@ -88,12 +97,14 @@ header h5 {
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   float: right;
+  background-color: white;
 }
 
 .web h1 {
   padding: 5px 0px 5px 5px;
   margin-top: 0px;
   text-transform: uppercase;
+  border-bottom: 1px solid black;
 }
 
 .tablet {
@@ -105,12 +116,14 @@ header h5 {
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   float: left;
+  background-color: white;
 }
 
 .tablet h1 {
   padding: 5px 0px 5px 5px;
   margin-top: 0px;
   text-transform: uppercase;
+  border-bottom: 1px solid black;
 }
 /* ==========================================================================
    Author's custom styles
