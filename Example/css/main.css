@@ -1,5 +1,20 @@
 
+aside {
+  width: 140px;
+  height: 860px;
+  margin-bottom: 20px;
+  border-top: 10px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  float: right;
+}
 
+aside h3 {
+  padding: 5px 0px 5px 5px;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
 
 header {
   width: 800px;
@@ -15,6 +30,7 @@ header h5 {
   padding-top: 40px;
   text-align: right;
   width: 40%;
+  text-transform: uppercase;
 }
 
 .page {
@@ -27,7 +43,10 @@ header h5 {
 .featurecontainer {
   width: 640px;
   height: 420px;
-  border: 1px solid black;
+  border-top: 10px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
   float: left;
   clear: both;
 }
@@ -35,8 +54,64 @@ header h5 {
 .featurecontainer h1 {
   padding: 5px 0px 5px 5px;
   margin-top: 0px;
+  text-transform: uppercase;
 }
 
+.secondarycontent {
+  width: 640px;
+}
+.social {
+  height: 140px;
+  width: 310px;
+  margin-top: 20px;
+  border-top: 10px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  float: left;
+}
+
+.social h1 {
+  padding: 5px 0px 5px 5px;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+.web {
+  height: 408px;
+  width: 310px;
+  margin-top: 20px;
+  margin-left: 2px;
+  margin-bottom: 20px;
+  border-top: 10px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  float: right;
+}
+
+.web h1 {
+  padding: 5px 0px 5px 5px;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+.tablet {
+  height: 236px;
+  width: 310px;
+  margin-top: 20px;
+  border-top: 10px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  float: left;
+}
+
+.tablet h1 {
+  padding: 5px 0px 5px 5px;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
