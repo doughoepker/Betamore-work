@@ -4,6 +4,7 @@
   padding-top: 15px;
   background-color: #989898;
   position: fixed;
+  z-index: 3;
 }
 #body {
   margin: 0;
@@ -27,13 +28,30 @@
 
 .featurepic {
   height: 400px;
+  position: relative;
+	clear: both;
+	overflow: hidden;
 }
 
 .featurepic img {
   height: 100%;
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
+.featurepic .name {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  left: 0;
+  z-index: 2;
+  text-align: center;
+  font-family: "Londrina Shadow";
+  font-size: 110px;
+  letter-spacing: 8px;
+}
 
 .section1 {
   margin: 0 auto;
@@ -165,8 +183,17 @@ a:link {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 2px solid aquamarine;
 }
+
 a:visited {
   color: whitesmoke;
+}
+a img {
+  border: 0 none;
+}
+
+.image-link {
+  text-decoration: none;
 }
