@@ -123,21 +123,21 @@
 }
 .footerlogos {
   display: table;
-  width: 240px;
+  width: 250px;
   margin: 0 auto;
 }
 .footerlogos a:hover {
   text-decoration: none;
 }
-.twittersvg {
+.footersvg {
   fill: #000000;
 }
-.twittersvg:hover {
+.footersvg:hover {
   fill: aquamarine;
 }
 .footermail {
   display: table;
-  width: 240px;
+  width: 250px;
   margin: 0 auto;
   padding-top: 22px;
 }
