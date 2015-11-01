@@ -129,6 +129,12 @@
 .footerlogos a:hover {
   text-decoration: none;
 }
+.twittersvg {
+  fill: #000000;
+}
+.twittersvg:hover {
+  fill: aquamarine;
+}
 .footermail {
   display: table;
   width: 240px;
