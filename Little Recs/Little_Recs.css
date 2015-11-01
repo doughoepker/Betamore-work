@@ -1,0 +1,60 @@
+#aside {
+  float: left;
+  position: fixed;
+  margin-left: 60px;
+  padding: 40px 0px 20px 0px;
+  height: 800px;
+  width: 22%;
+}
+#main {
+  width: 62%;
+  height: 900px;
+  float: left;
+  margin-left: 390px;
+  padding: 40px 0px 20px 0px;
+  position: relative;
+}
+#footer {
+  clear: both;
+  text-align: center;
+  padding: 5px;
+}
+#grid {
+  background-color: lightgrey;
+  margin: 0 auto;
+  width: 98%;
+}
+#sitedescrip {
+  font-size: 14px;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+a:visited {
+  color: #F75D59;
+  text-decoration: none;
+}
+.column {
+  width: 30%;
+  height: 180px;
+  background-color: yellow;
+  float: left;
+  margin: 1.66%;
+}
+.columntext {
+  padding: 8px;
+  color: red;
+}
+h1 {
+  font-family: Shadows Into Light;
+  font-size: 160%;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  line-height: 160%;
+}
