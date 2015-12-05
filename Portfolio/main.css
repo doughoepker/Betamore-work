@@ -17,6 +17,13 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2vmax;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 main {
   font-family: 'Lato', sans-serif;
 }
@@ -49,8 +56,39 @@ main {
 }
 
 .about {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding-bottom: 0.5em;
+}
+
+.freelance {
+  background-color: #F0F0F0;
+  margin: 0 auto;
+}
+
+.freelance h1 {
+  padding-top: 1em;
+  margin-bottom: 0;
+}
+
+.container {
+  background-color: #F0F0F0;
+}
+
+/* Grid */
+
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+}
+
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+.col-1-2 {
+  width: 80%;
+  float: left;
+  margin: 0 10%;
   background-color: #F0F0F0;
 }
